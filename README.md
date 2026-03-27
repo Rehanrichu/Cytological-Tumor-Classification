@@ -1,23 +1,58 @@
-# Cytological Tumor Classification Model
+# Cytological Tumor Classification
 
-**A simple Random Forest project from Kaggle's Intro to Machine Learning course**
+A simple Machine Learning project that classifies tumors as **Malignant (Cancerous)** or **Benign (Non-Cancerous)** using cellular features.
 
-This model predicts whether a breast tumor is **Malignant (M)** or **Benign (B)** by analysing real cytological features (cell size, texture, etc.). I built it while learning Scikit-learn to understand how AI can help in medical diagnosis.
+---
 
-### What it does
-- Uses 5 important features from the Breast Cancer Wisconsin dataset  
-  (`radius_mean`, `texture_mean`, `perimeter_mean`, `area_mean`, `smoothness_mean`)
-- Trains a Random Forest Classifier
-- Compares predictions with actual results and shows accuracy
+# Overview
 
-### Technologies Used
-- Python
-- Pandas
-- Scikit-learn (RandomForestClassifier)
+This project uses a **Random Forest Classifier** to analyze cytological data (cell characteristics like radius, texture, area, etc.) and predict whether a tumor is cancerous.
 
-### How to run
-1. Clone or download the repository
-2. Put your `cancer_data.csv` file in the same folder
-3. Run the script:
-   ```bash
-   python tumor_classification.py
+It is built using concepts from:
+
+* Kaggle *Intro to Machine Learning*
+* Python fundamentals
+
+---
+
+## Features
+
+* Data handling with **Pandas**
+* Model training using **Random Forest**
+* Train-test split for proper validation
+* Feature importance analysis
+* Simple prediction function
+* Model saving with `joblib`
+
+---
+
+## Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* Matplotlib & Seaborn
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install pandas scikit-learn matplotlib seaborn joblib
+python tumor_classifier.py
+```
+---
+
+## 🧪 Output
+
+* Model accuracy and classification report
+* Top important features visualization
+* Sample prediction (Malignant / Benign)
+---
+## 📌 Future Improvements
+
+* Add Streamlit web interface
+* Hyperparameter tuning
+* Better dataset / real-world data integration
+
+---
