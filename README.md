@@ -32,15 +32,6 @@ It is built using concepts from:
 * Pandas
 * Scikit-learn
 * Matplotlib & Seaborn
-
----
-
-## ▶️ How to Run
-
-```bash
-pip install pandas scikit-learn matplotlib seaborn joblib
-python tumor_classifier.py
-```
 ---
 
 ## 🧪 Output
